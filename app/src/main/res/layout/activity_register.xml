@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context="login.register.RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:gravity="center"
+        android:textColor="@color/colorblack"
+        android:layout_marginTop="15dp"
+        android:textSize="24sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <EditText
+            android:layout_centerInParent="true"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:background="@drawable/xiahuaxian"
+            android:hint="请输入账号"
+            android:id="@+id/register_telNum"
+            android:inputType="phone|number"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@drawable/xiahuaxian"
+            android:layout_below="@id/register_telNum"
+            android:layout_centerInParent="true"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:hint="请输入密码"
+            android:id="@+id/register_password"
+            android:inputType="textPassword"
+            />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"
+        android:text="注册"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:onClick="myRegister"
+        android:background="@drawable/mycoror"
+        android:layout_below="@id/register_password"
+        />
+    </RelativeLayout>
+</RelativeLayout>

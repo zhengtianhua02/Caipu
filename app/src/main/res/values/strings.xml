@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">我的菜谱大全</string>
+    <string name="my_appName">菜谱大全-首页</string>
+    <string name="my_detail" >菜谱详情</string>
+</resources>
